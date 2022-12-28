@@ -1,0 +1,198 @@
+
+body{
+    background-image: url("/src/images/gif.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+h1,
+p {
+  font-family: Lato;
+}
+
+* {
+  box-sizing: border-box;
+}
+.search-container {
+  border: transparent;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  flex-direction: column;
+  margin: auto;
+}
+.search-container .form-group {
+  width: 150px;
+}
+.search-container input {
+  width: 100%;
+  padding: 5px;
+}
+.search-container button {
+  margin-top: 20px;
+  border: none;
+  width: 120px;
+  padding: 10px;
+  background-color: green;
+  color: whitesmoke;
+}
+
+.search-container button:hover {
+  background-color: burlywood;
+  color: black;
+  cursor: pointer;
+}
+
+.was-validated input:invalid {
+  background-color: lightpink;
+  border: solid red;
+}
+
+.error-alert {
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: lightpink;
+  border: solid coral;
+}
+
+.buses-avail-container .bus-avail {
+  display: flex;
+  flex-direction: column;
+  background: wheat;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.buses-avail-container .bus-avail:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.seat {
+  visibility: hidden;
+}
+
+.seat + label {
+  background-color: lightcyan;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.seat:checked + label {
+  background-color: green;
+}
+.seat:disabled + label {
+  background-color: lightsalmon;
+  cursor: not-allowed;
+}
+.seat-container {
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+}
+.proceed {
+  text-align: center;
+  margin: 20px auto;
+  width: 100px;
+}
+.head{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: brown;
+}
+.head:hover{
+  color: blueviolet;
+}
+
+.btn{
+  border-radius: 20px;
+  background-color: azure;
+}
+.btn:hover{
+  background-color:ghostwhite;
+}
+.from{
+  color:gray;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.speedo{
+  text-align: start;
+  font-size:50px;
+  text-shadow: 010px 5px 2px 4px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 15px;
+  animation: speedo 15s infinite;
+  color: aliceblue;
+  position: relative;
+}
+@keyframes speedo{
+  from{left:0px; color:greenyellow;}
+
+  to{left: 1000px; color:hotpink;};
+  
+  
+}
+
+.data{
+  height:130px;
+  width: 180px;
+  margin:30px;
+  border-radius: 30px;
+  border: solid 1px transparent;
+  justify-content: flex-end;
+}
+.input{
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 05px;
+  border-radius: 10px;
+  color:;
+
+}
+.submit{
+  align-items: center;
+  border-radius: 10px;
+  color: cornsilk;
+  background-color:grey;
+  padding: 5px;
+}
+.submit:hover{
+  color: cornflowerblue;
+}
+
+.register{
+  margin-left: 40px;
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.register:hover{
+  color:green;
+}
+
+.button{
+  margin-left: 50px;
+
+  color: azure;
+}
